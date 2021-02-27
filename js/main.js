@@ -514,7 +514,7 @@ function SelectGame(a){
         reset();
     game.load('rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3');
     board.position(game.fen());
-    window.setTimeout(function() {makeBestMove('b')}, 250)
+    
     }
     if(a=="queenaccept"){
         reset();
