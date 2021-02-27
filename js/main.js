@@ -330,7 +330,7 @@ function LiveCommentry () {
     return;
 
 }
-var commentaries=['Bruh','LMAO','bleh','bloh','LOSER','LOL','HAHA','bruh moment','WHO?','SMH','PAthetic']
+var commentaries=['Why play a good move when you can blunder instead?','What if we placed our pawns next to each other👉👈 😘','Everyone needs privacy so leave your pieces alone instead of defending them 😏','Maya says a good chess player always leaves their pieces hanging','Nice move! You are on your way to become worse, Keep going 😊','If you ever play a good move, Dont worry, You can always smack the shit out of yourself after the game','The future of the game looks good. We have Magnus, Magnus Blunderson here ','bruh moment','Good moves are for losers 😠','Maya says signs of physical aggresion after winning the game are completely acceptable. You are valid❤️','Blunder? More like a wonder :)']
 function getRant(a){
     return commentaries[a];
 
