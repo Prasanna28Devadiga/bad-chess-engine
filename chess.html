@@ -58,7 +58,7 @@
         <!-- Custom JS -->
         <script defer src="js/main.js"></script>
     </head>
-    <body>
+    <body style="background-color:#2c2c24;">
         <br>
 
         <main>
@@ -72,13 +72,13 @@
                         <div id="myBoard"></div>
                         <div class="row my-3 text-align-center">
                             <div class="col sm">
-                                <button class="btn btn-danger" id="undoBtn">Undo</button>
+                                <button class="btn btn-light" id="undoBtn">Undo</button>
                             </div>
                             <div class="col sm">
-                                <button class="btn btn-success" id="redoBtn">Redo</button>
+                                <button class="btn btn-light" id="redoBtn">Redo</button>
                             </div>
                             <div class="col sm">
-                                <button class="btn btn-success" id="resetBtn">New Game</button>
+                                <button class="btn btn-warning" id="resetBtn">New Game</button>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                             <span id="position-count">0</span> &nbsp positions evaluated in &nbsp <span id="time">0</span>s.
                         </div>
                         <div class="row mb-3 justify-content-center">
-                            That's &nbsp <span id="positions-per-s">0</span> &nbsp positions / s.
+                            That's &nbsp <span id="positions-per-s">0</span> &nbsp positions/s.
                         </div>
                         <div id="accordion">
                             <div class="card">
@@ -208,7 +208,7 @@
                             <div class="col-md-12">
                                 <h2>Advantage</h2>
                                 <p><span id="advantageColor">Neither side</span> has the advantage 
-                                    (+<span id="advantageNumber">0</span>).</p>
+                                    <span id="advantageNumber"></span></p>
                                 <div class="progress">
                                     <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" 
                                         role="progressbar" aria-valuenow="0" style="width: 50%"
