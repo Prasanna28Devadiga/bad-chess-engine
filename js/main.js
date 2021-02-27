@@ -290,26 +290,26 @@ function checkStatus (color) {
     else if (game.insufficient_material())
     {
         $('#status').html(`It's a <b>draw!</b> (Insufficient Material)`);
-        alert("It's a draw!, "+color+ " (Insufficient Material)")
+        
     }
     else if (game.in_threefold_repetition())
     {
         $('#status').html(`It's a <b>draw!</b> (Threefold Repetition)`);
-        alert("Checkmate! Oops, "+color+ " lost.")    }
+            }
     else if (game.in_stalemate())
     {
         $('#status').html(`It's a <b>draw!</b> (Stalemate)`);
-        alert("Checkmate! Oops, "+color+ " lost.")
+        
     }
     else if (game.in_draw())
     {
         $('#status').html(`It's a <b>draw!</b> (50-move Rule)`);
-        alert("Checkmate! Oops, "+color+ " lost.")
+        
     }
     else if (game.in_check())
     {
         $('#status').html(`Oops, <b>${color}</b> is in <b>check!</b>`);
-        alert("Checkmate! Oops, "+color+ " lost.")
+        
         return false;
     }
     else
@@ -330,7 +330,7 @@ function LiveCommentry () {
     return;
 
 }
-var commentaries=['Why play a good move when you can blunder instead?','What if we placed our pawns next to each other👉👈 😘','Everyone needs privacy so leave your pieces alone instead of defending them 😏','Maya says a good chess player always leaves their pieces hanging','Nice move! You are on your way to become worse, Keep going 😊','If you ever play a good move, Dont worry, You can always smack the shit out of yourself after the game','The future of the game looks good. We have Magnus, Magnus Blunderson here ','bruh moment','Good moves are for losers 😠','Maya says signs of physical aggresion after winning the game are completely acceptable. You are valid❤️','Blunder? More like a wonder :)']
+var commentaries=['Why play a good move when you can blunder instead?','What if we placed our pawns next to each other👉👈 😘','Everyone needs privacy so leave your pieces alone instead of defending them 😏','Maya says a good chess player always leaves their pieces hanging','Nice move! You are on your way to become worse, Keep going 😊','If you ever play a good move, Dont worry, You can always smack the shit out of yourself after the game','The future of the game looks good. We have Magnus, Magnus Blunderson here ','Bruh moment','Good moves are for losers 😠','Maya says signs of physical aggresion after winning the game are completely acceptable. You are valid❤️','Blunder? More like a wonder :)']
 function getRant(a){
     return commentaries[a];
 
