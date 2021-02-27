@@ -4,7 +4,8 @@
 
 body{
     color: rgb(235, 213, 216);
-    
+    font-family: 'Inter';
+    font-size: large;
 }
 
 #myBoard {
