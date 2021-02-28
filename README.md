@@ -17,7 +17,7 @@ The primary concern of chess-ai is the decision-making part of the application. 
 - Chessboard GUI: Using the chessboard.js API
 - Game Mechanics: Using the chess.js API
 
-The AI uses a modified version of the [minimax algorithm](https://en.wikipedia.org/wiki/Minimax), which is optimised by [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning). It wouldn't really be fair to call it minimax algorithm anymore, a more apt-name would be minmin algorithm .
+The AI uses a modified version of the [minimax algorithm](https://en.wikipedia.org/wiki/Minimax), which is optimised by [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning). It wouldn't really be fair to call it minimax algorithm anymore, a more apt-name would be <b>minmin algorithm</b> .
 
 The evaluation function uses [piece square tables](https://www.chessprogramming.org/Piece-Square_Tables) adapted from Sunfish.py, and eliminates the need for nested loops by updating the sum based on each move instead of re-computing the sum of individual pieces at each leaf node.
 
