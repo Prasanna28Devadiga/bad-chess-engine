@@ -31,8 +31,11 @@ A global sum is used to keep track of black's evaluation score after each move, 
 2. Play as white by dragging a piece to your desired location. The AI plays as black. The AI's minimax search depth (which is directly related to how <b>bad</b> it will play) can be customised using the 'Search Depth (Black)' dropdown. Using a higher value will improve the AI's accuracy, but it will take longer to decide on the next move.
 
 3. To pit the AI against itself, click the 'Start Game' button under Computer vs. Computer. You can stop the game at any time using the 'Stop and Reset' button.
+<p align="center">
+<img src="Game-screenshot-1.jpeg" width ="800" height="500">
+</p>
 
-## Acknoledgement
+## Acknowledgement
 1. https://github.com/lhartikk/simple-chess-ai
 2. https://github.com/zeyu2001/chess-ai
 
