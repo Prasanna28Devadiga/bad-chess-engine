@@ -278,7 +278,7 @@ function checkStatus (color) {
     if (game.in_checkmate())
     {
         $('#status').html(`<b>Checkmate!</b> Oops, <b>${color}</b> lost.`);
-        alert("Checkmate! Oops, "+color+ " lost.")
+        
     }
     else if (game.insufficient_material())
     {
