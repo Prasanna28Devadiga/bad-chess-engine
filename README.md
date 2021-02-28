@@ -1,4 +1,4 @@
-# bad-chess-engine
+<img src= "mayalogo.png" width="350" height="300">
 
 ## Inspiration
 The authors of this project were inspired by great men such as ― Bernard Kelvin Clive and Mahatma Gandhi. Mahatma Gandhi advocated <b>non-violence</b> and Bernard Kelvin Clive once said<br> <h3>“Don't be indifferent be the difference - Standout!”. </h3>
