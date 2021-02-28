@@ -35,12 +35,15 @@ A global sum is used to keep track of black's evaluation score after each move, 
 <img src="Game-screenshot-1.jpeg" width ="800" height="500">
 </p>
 
-## Acknowledgement
+## Acknowledgement/References
 1. Wikipedia.com for the chess pieces
-2.
+2. https://www.freecodecamp.org/news/simple-chess-ai-step-by-step-1d55a9266977/
 3. https://www.thechesswebsite.com/chess-openings/
-4. https://github.com/lhartikk/simple-chess-ai
+4. https://github.com/geohot/twitchchess
 5. https://github.com/zeyu2001/chess-ai
+6. https://en.wikipedia.org/wiki/Minimax
+7. https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning
+8. https://www.chessprogramming.org/Piece-Square_Tables
 
 ## License
 Use of this project is governed by the [MIT License](LICENSE).
