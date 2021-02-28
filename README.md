@@ -8,7 +8,7 @@ The global pandemic has lead to a big online chess boom. With large parts of the
 <h4> People must realise this is the exact <b>opposite</b> of <b>standing out</b> from the crowd  </h4>
 
 ## Solution
-The authors spent plenty of time (7 mins to be precise) in designing the solution. We are proud to present to you (Insert name ). A chess engine that helps you get terrible at the game by playing the absolute worse moves.
+The authors spent plenty of time (7 mins to be precise) in designing the solution. We are proud to present to you Maya, A chess engine that helps you get terrible at the game by playing the absolute worse moves.
 In a world where people are trying to get better at the game. Stand out by working to play the game nastily .
 ## About
  
@@ -17,16 +17,16 @@ The primary concern of chess-ai is the decision-making part of the application. 
 - Chessboard GUI: Using the chessboard.js API
 - Game Mechanics: Using the chess.js API
 
-The AI uses the [minimax algorithm](https://en.wikipedia.org/wiki/Minimax), which is optimised by [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning). 
+The AI uses a modified version of the [minimax algorithm](https://en.wikipedia.org/wiki/Minimax), which is optimised by [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning). It wouldn't really be fair to call it minimax algorithm anymore, a more apt-name would be minmin algorithm .
 
 The evaluation function uses [piece square tables](https://www.chessprogramming.org/Piece-Square_Tables) adapted from Sunfish.py, and eliminates the need for nested loops by updating the sum based on each move instead of re-computing the sum of individual pieces at each leaf node.
 
 A global sum is used to keep track of black's evaluation score after each move, which is used to display the 'advantage' bar. 
 
 ## How to Play?
-1. Head over to https://zeyu2001.github.io/chess-ai/.
+1. Head over to https://mayachess.herokuapp.com/ .
 
-2. Play as white by dragging a piece to your desired location. The AI plays as black. The AI's minimax search depth (which is directly related to how well it will play) can be customised using the 'Search Depth (Black)' dropdown. Using a higher value will improve the AI's accuracy, but it will take longer to decide on the next move.
+2. Play as white by dragging a piece to your desired location. The AI plays as black. The AI's minimax search depth (which is directly related to how <b>bad</b> it will play) can be customised using the 'Search Depth (Black)' dropdown. Using a higher value will improve the AI's accuracy, but it will take longer to decide on the next move.
 
 3. To pit the AI against itself, click the 'Start Game' button under Computer vs. Computer. You can stop the game at any time using the 'Stop and Reset' button.
 
