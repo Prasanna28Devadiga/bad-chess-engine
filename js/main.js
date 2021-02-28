@@ -287,11 +287,11 @@ function checkStatus (color) {
     }
     else if (game.in_threefold_repetition())
     {
-        $('#status').html(`It's a <b>draw!</b> (Threefold Repetition)`);
+        $('#status').html(`Oof that was a close one! (Threefold Repetition)`);
             }
     else if (game.in_stalemate())
     {
-        $('#status').html(`It's a <b>draw!</b> (Stalemate)`);
+        $('#status').html(`Oof that was a close one! (Stalemate)`);
         
     }
     else if (game.in_draw())
