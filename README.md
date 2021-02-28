@@ -30,5 +30,9 @@ A global sum is used to keep track of black's evaluation score after each move, 
 
 3. To pit the AI against itself, click the 'Start Game' button under Computer vs. Computer. You can stop the game at any time using the 'Stop and Reset' button.
 
+## Acknoledgement
+1. https://github.com/lhartikk/simple-chess-ai
+2. https://github.com/zeyu2001/chess-ai
+
 ## License
 Use of this project is governed by the [MIT License](LICENSE).
