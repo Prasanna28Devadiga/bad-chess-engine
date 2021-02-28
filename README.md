@@ -36,8 +36,9 @@ A global sum is used to keep track of black's evaluation score after each move, 
 </p>
 
 ## Acknowledgement
-1. https://github.com/lhartikk/simple-chess-ai
-2. https://github.com/zeyu2001/chess-ai
+1. https://www.thechesswebsite.com/chess-openings/
+2. https://github.com/lhartikk/simple-chess-ai
+3. https://github.com/zeyu2001/chess-ai
 
 ## License
 Use of this project is governed by the [MIT License](LICENSE).
