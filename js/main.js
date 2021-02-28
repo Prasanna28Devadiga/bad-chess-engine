@@ -381,7 +381,12 @@ function getBestMove (game, color, currSum) {
 
     $('#position-count').text(positionCount);
     $('#time').text(moveTime/1000);
-    $('#positions-per-s').text(Math.round(positionsPerS));
+    if(positionCount==1){
+        $('#positions-per-s').text('1');
+    }
+    else{
+        $('#positions-per-s').text(Math.round(positionsPerS));
+    }
     if(count==3){
         LiveCommentry();
         count=0;
