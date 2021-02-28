@@ -317,6 +317,7 @@ function checkStatus (color) {
 function LiveCommentry () {
     var a =Math.floor(Math.random()*11)
     var comma=getRant(a);
+    $('#heading').html('Pro Tips #'+a+':');
     $('#rant').html(comma);
     
    
