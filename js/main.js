@@ -1,10 +1,3 @@
-/* 
- * A simple chess AI, by someone who doesn't know how to play chess.
- * Uses the chessboard.js and chess.js libraries.
- * 
- * Copyright (c) 2020 Zhang Zeyu
- */
-
 var STACK_SIZE = 100;                 // maximum size of undo stack
 
 var board = null
