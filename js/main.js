@@ -330,7 +330,7 @@ function LiveCommentry () {
     return;
 
 }
-var commentaries=['Why play a good move when you can blunder instead?','What if we placed our pawns next to each other <3','Everyone needs privacy so leave your pieces alone instead of defending them *smirks*','Maya says, A good chess player always leaves their pieces hanging','Nice move! You are on your way to get worse, Keep going :")','If you ever play a good move, Dont worry, You can always smack the shit out of yourself later!','The future of the game looks good. We have Magnus, Magnus Blunderson here ','Bruh moment','Good moves are for losers :(','Maya says signs of physical aggresion after winning the game are completely acceptable. You are valid <3','Blunder? More like a wonder ;)']
+var commentaries=['Why play a good move when you can blunder instead?','What if we placed our pawns next to each other <3','Everyone needs privacy so leave your pieces alone instead of defending them *smirks*','Maya says, A good chess player always leaves their pieces hanging','Nice move! You are on your way to get worse, Keep going :")','If you ever play a good move, Dont worry, You can always smack the shit out of yourself later!','The future of the game looks good. We have Magnus, Magnus Blunderson here ','Bruh moment','Good moves are for losers :(','Maya says signs of physical aggresion after winning the game are completely acceptable. You are valid <3 ','Blunder? More like a wonder ;)']
 function getRant(a){
     return commentaries[a];
 
