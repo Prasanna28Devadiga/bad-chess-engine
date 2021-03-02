@@ -47,6 +47,6 @@ A global sum is used to keep track of black's evaluation score after each move, 
 
 ## License
 Use of this project is governed by the [MIT License](LICENSE). <br>
-Special thanks to all our supporters <3:
+Special thanks to all our supporters <3: <br>
 [![Stargazers repo roster for @Prasanna28Devadiga/bad-chess-engine](https://reporoster.com/stars/Prasanna28Devadiga/bad-chess-engine)](https://github.com/Prasanna28Devadiga/bad-chess-engine/stargazers)
 [![Forkers repo roster for @Prasanna28Devadiga/bad-chess-engine](https://reporoster.com/forks/Prasanna28Devadiga/bad-chess-engine)](https://github.com/Prasanna28Devadiga/bad-chess-engine/network/members)
