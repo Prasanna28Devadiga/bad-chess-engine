@@ -35,6 +35,8 @@ A global sum is used to keep track of black's evaluation score after each move, 
 <img src="Game-screenshot-1.jpeg" width ="800" height="500">
 </p>
 
+<h3>Parody project built for fun XD</h3>
+
 ## Acknowledgement/References
 1. Wikipedia.com for the chess pieces
 2. https://www.freecodecamp.org/news/simple-chess-ai-step-by-step-1d55a9266977/
