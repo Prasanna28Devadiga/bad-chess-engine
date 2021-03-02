@@ -46,4 +46,7 @@ A global sum is used to keep track of black's evaluation score after each move, 
 8. https://www.chessprogramming.org/Piece-Square_Tables
 
 ## License
-Use of this project is governed by the [MIT License](LICENSE).
+Use of this project is governed by the [MIT License](LICENSE). <br>
+Special thanks to all our supporters <3:
+[![Stargazers repo roster for @Prasanna28Devadiga/bad-chess-engine](https://reporoster.com/stars/Prasanna28Devadiga/bad-chess-engine)](https://github.com/Prasanna28Devadiga/bad-chess-engine/stargazers)
+[![Forkers repo roster for @Prasanna28Devadiga/bad-chess-engine](https://reporoster.com/forks/Prasanna28Devadiga/bad-chess-engine)](https://github.com/Prasanna28Devadiga/bad-chess-engine/network/members)
